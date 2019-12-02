@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6C00</color>
+    <color name="colorPrimaryDark">#252428</color>
+    <color name="colorAccent">#FFA65C</color>
+
+    <color name="white">#CEFDFDFD</color>
+    <color name="grey">#DCDCDC</color>
+    <color name="bags">#e6FFFFFF</color>
+    <color name="text">#424242</color>
+    <color name="text1">#37474F</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg">#79000000</color>
+    <color name="gradStart">#FF465C</color>
+    <color name="gradStop">#FFA65C</color>
+</resources>

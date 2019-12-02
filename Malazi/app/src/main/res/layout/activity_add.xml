@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="7dp"
+    tools:context=".Activities.AddLandActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/recyclerView"
+            android:divider="@color/colorFormMasterDivider"/>
+
+        <LinearLayout
+            android:layout_below="@+id/recyclerView"
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:id="@+id/iv_image1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/placeholder"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:id="@+id/iv_image2"
+                android:layout_width="100dp"
+                android:src="@drawable/placeholder"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:id="@+id/iv_image3"
+                android:layout_width="100dp"
+                android:src="@drawable/placeholder"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/img2"
+            android:layout_below="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:id="@+id/iv_image4"
+                android:layout_width="100dp"
+                android:src="@drawable/placeholder"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:id="@+id/iv_image5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/placeholder"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_margin="5dp"
+                android:id="@+id/iv_image6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/placeholder"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Images"
+            android:layout_below="@+id/img2"
+            android:id="@+id/buttonImages"
+            android:layout_margin="15dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/btn"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Property"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/transparent"
+            android:layout_below="@+id/buttonImages"
+            android:id="@+id/buttonSendInfo"
+            android:layout_margin="5dp"/>
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
